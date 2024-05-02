@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libjpeg",
+					"jsonFile" : "directory-libjpeg-Release-36f877acfc5344afb799.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libjpeg",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libpng",
+					"jsonFile" : "directory-libpng-Release-bb90be8aa4699cd9ca66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libpng",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "leptonica",
+					"jsonFile" : "directory-leptonica-Release-213ee98b2a865a923b3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "leptonica",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "tesseract",
+					"jsonFile" : "directory-tesseract-Release-4567152436985663210d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tesseract",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Tesseract4Android",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "jpeg::@a731cd7af4720e231c52",
+					"jsonFile" : "target-jpeg-Release-32b48b76461ae366529e.json",
+					"name" : "jpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "leptonica::@325f8d59c35d1c22333d",
+					"jsonFile" : "target-leptonica-Release-8e9f1eb0e2e5ba280a55.json",
+					"name" : "leptonica",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pngx::@0ccab45d953d31f6e478",
+					"jsonFile" : "target-pngx-Release-b25695f9cb6bd61571d2.json",
+					"name" : "pngx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "tesseract::@b5b5e8a00c456ca34437",
+					"jsonFile" : "target-tesseract-Release-2363db9aaede37f7797f.json",
+					"name" : "tesseract",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/.cxx/Release/1r6w4w1e/x86",
+		"source" : "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

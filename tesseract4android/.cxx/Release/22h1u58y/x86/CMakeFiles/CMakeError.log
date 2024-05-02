@@ -1,0 +1,32 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/macbook/StudioProjects/RupshaOCR/tesseract4android/.cxx/Release/22h1u58y/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/macbook/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_64ea1 && [1/2] Building C object CMakeFiles/cmTC_64ea1.dir/CMakeCCompilerABI.c.o
+FAILED: CMakeFiles/cmTC_64ea1.dir/CMakeCCompilerABI.c.o 
+/Users/macbook/Library/Android/sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/macbook/Library/Android/sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/macbook/Library/Android/sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -fopenmp -static-openmp -Wno-unused-command-line-argument  -fPIE   -v -MD -MT CMakeFiles/cmTC_64ea1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_64ea1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_64ea1.dir/CMakeCCompilerABI.c.o -c /Users/macbook/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang: error: unknown argument: '-static-openmp'
+Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)
+Target: i686-none-linux-android16
+Thread model: posix
+InstalledDir: /Users/macbook/Library/Android/sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/macbook/Library/Android/sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
+Found candidate GCC installation: /Users/macbook/Library/Android/sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /Users/macbook/Library/Android/sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/macbook/StudioProjects/RupshaOCR/tesseract4android/.cxx/Release/22h1u58y/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/macbook/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_b05ae && [1/2] Building C object CMakeFiles/cmTC_b05ae.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_b05ae.dir/testCCompiler.c.o 
+/Users/macbook/Library/Android/sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/macbook/Library/Android/sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/macbook/Library/Android/sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fopenmp -static-openmp -Wno-unused-command-line-argument  -fPIE -MD -MT CMakeFiles/cmTC_b05ae.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_b05ae.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_b05ae.dir/testCCompiler.c.o -c /Users/macbook/StudioProjects/RupshaOCR/tesseract4android/.cxx/Release/22h1u58y/x86/CMakeFiles/CMakeTmp/testCCompiler.c
+clang: error: unknown argument: '-static-openmp'
+ninja: build stopped: subcommand failed.
+
+
+

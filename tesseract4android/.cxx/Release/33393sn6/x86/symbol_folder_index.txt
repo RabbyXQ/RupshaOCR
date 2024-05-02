@@ -1,0 +1,1 @@
+/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/build/intermediates/cxx/Release/33393sn6/obj/x86

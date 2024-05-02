@@ -1,0 +1,5 @@
+/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/src/main/cpp/CMakeLists.txt
+/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/src/main/cpp/leptonica/CMakeLists.txt
+/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/src/main/cpp/libjpeg/CMakeLists.txt
+/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/src/main/cpp/libpng/CMakeLists.txt
+/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/src/main/cpp/tesseract/CMakeLists.txt

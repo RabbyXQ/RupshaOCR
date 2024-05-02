@@ -1,0 +1,56 @@
+{
+  "buildFiles": [
+    "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/src/main/cpp/CMakeLists.txt",
+    "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/src/main/cpp/leptonica/CMakeLists.txt",
+    "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/src/main/cpp/libjpeg/CMakeLists.txt",
+    "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/src/main/cpp/libpng/CMakeLists.txt",
+    "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/src/main/cpp/tesseract/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/macbook/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/.cxx/RelWithDebInfo/4b174e61/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/macbook/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/.cxx/RelWithDebInfo/4b174e61/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "tesseract::@b5b5e8a00c456ca34437": {
+      "artifactName": "tesseract",
+      "abi": "x86",
+      "output": "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/build/intermediates/cxx/RelWithDebInfo/4b174e61/obj/x86/libtesseract.so",
+      "runtimeFiles": [
+        "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/build/intermediates/cxx/RelWithDebInfo/4b174e61/obj/x86/libleptonica.so",
+        "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/build/intermediates/cxx/RelWithDebInfo/4b174e61/obj/x86/libjpeg.so",
+        "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/build/intermediates/cxx/RelWithDebInfo/4b174e61/obj/x86/libpngx.so"
+      ]
+    },
+    "leptonica::@325f8d59c35d1c22333d": {
+      "artifactName": "leptonica",
+      "abi": "x86",
+      "output": "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/build/intermediates/cxx/RelWithDebInfo/4b174e61/obj/x86/libleptonica.so",
+      "runtimeFiles": [
+        "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/build/intermediates/cxx/RelWithDebInfo/4b174e61/obj/x86/libjpeg.so",
+        "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/build/intermediates/cxx/RelWithDebInfo/4b174e61/obj/x86/libpngx.so"
+      ]
+    },
+    "jpeg::@a731cd7af4720e231c52": {
+      "artifactName": "jpeg",
+      "abi": "x86",
+      "output": "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/build/intermediates/cxx/RelWithDebInfo/4b174e61/obj/x86/libjpeg.so",
+      "runtimeFiles": []
+    },
+    "pngx::@0ccab45d953d31f6e478": {
+      "artifactName": "pngx",
+      "abi": "x86",
+      "output": "/Users/macbook/StudioProjects/RupshaOCR/tesseract4android/build/intermediates/cxx/RelWithDebInfo/4b174e61/obj/x86/libpngx.so",
+      "runtimeFiles": []
+    }
+  }
+}
